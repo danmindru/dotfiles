@@ -1,0 +1,11 @@
+{
+	"extensions":
+	[
+		"md",
+    "notes"
+	],
+
+  "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+  "tab_size": 2,
+  "wrap_width": 40,
+}

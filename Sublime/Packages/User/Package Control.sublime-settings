@@ -1,0 +1,47 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"AngularJS",
+		"AutoFileName",
+		"Babel",
+		"Better CoffeeScript",
+		"CasperJS",
+		"CoffeeAngular Syntax",
+		"CoffeeCompile",
+		"Color Highlighter",
+		"Colorsublime",
+		"Highlight Dodgy Chars",
+		"Jasmine JS",
+		"Laravel Color Scheme",
+		"LESS",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"MarkdownLight",
+		"Material Theme",
+		"Numix Theme",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"PlainTasks",
+		"Quick File Move",
+		"Sass",
+		"SCSS Snippets",
+		"Search in Project",
+		"Sepiarize Color Scheme",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-coffee",
+		"SublimeLinter-jsxhint",
+		"Theme - Augmented Reaction",
+		"Theme - Brogrammer",
+		"Theme - Glacier",
+		"Theme - Numix Light",
+		"Zen Tabs"
+	]
+}

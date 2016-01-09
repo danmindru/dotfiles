@@ -1,0 +1,12 @@
+{
+	"extensions":
+	[
+		"markdown",
+		"md"
+	],
+	"rulers":
+	[
+		40
+	],
+	"wrap_width": 68
+}

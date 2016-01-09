@@ -1,0 +1,7 @@
+{
+	"binDir": "/usr/local/bin",
+	"extensions":
+	[
+		"coffee"
+	]
+}
