@@ -23,7 +23,7 @@ ZSH_THEME="powerline"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -48,11 +48,13 @@ ZSH_THEME="powerline"
 plugins=(git osx brew bower npm node xcode vagrant sublime terminalapp gulp grunt bower brew coffee git-extras git-flow github history history-substring-search last-working-dir nvm python sublime extract)
 
 # User configuration
-
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+
+# Include Z
+. /usr/local/Cellar/z/1.8/etc/profile.d/z.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
