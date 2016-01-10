@@ -4,3 +4,4 @@
 3. Restart Sublime (will install packages in Package Control.sublime-settings)
 4. Remember to symlink zsh theme to ~/.oh-my-zsh
 5. Import iTerm profile in Preferences -> General
+6. * Remember to `brew install z`
