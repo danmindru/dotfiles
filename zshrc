@@ -7,6 +7,9 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="powerline"
 
+# Uncomment the following line to enable command auto-correction.
+ENABLE_CORRECTION="true"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -21,9 +24,6 @@ ZSH_THEME="powerline"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -40,21 +40,6 @@ ENABLE_CORRECTION="true"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx brew bower npm node xcode vagrant sublime terminalapp gulp grunt bower brew coffee git-extras git-flow github history history-substring-search last-working-dir nvm python sublime extract)
-
-# User configuration
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-# export MANPATH="/usr/local/man:$MANPATH"
-
-source $ZSH/oh-my-zsh.sh
-
-# Include Z
-. /usr/local/Cellar/z/1.8/etc/profile.d/z.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -81,18 +66,26 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#illustrator
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git osx brew bower npm node xcode vagrant sublime terminalapp gulp grunt bower brew coffee git-extras git-flow github history history-substring-search last-working-dir nvm python sublime extract)
+
+# User configuration
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+# export MANPATH="/usr/local/man:$MANPATH"
+
+source $ZSH/oh-my-zsh.sh
+
+# Include Z
+. /usr/local/Cellar/z/1.8/etc/profile.d/z.sh
+
+# Illustrator
 alias ail="open -a /Applications/Adobe\ Illustrator\ CS6/Adobe\ Illustrator.app/"
 
-#photoshop
+# Photoshop
 alias aps="open -a /Applications/Adobe\ Photoshop\ CS6/Adobe\ Photoshop\ CS6.app/"
-
-
-# colors!
-green="\[\033[0;32m\]"
-blue="\[\033[0;34m\]"
-purple="\[\033[0;35m\]"
-reset="\[\033[0m\]"
 
 # Sublime
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
@@ -153,3 +146,63 @@ bindkey -M emacs '^N' history-substring-search-down
 # bind k and j for VI mode
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
+
+
+# Setup path.
+#
+# This helper function will add a directory to the PATH if it exists
+# This is a simple way to handle different machines, OSes, and configurations.
+# Read more @ http://dan-m.in/setup-path
+addPath() {
+    if [ -d "${1}" ]; then
+        if [ -z "${PATH}" ]; then
+            export PATH="${1}"
+        else
+          export PATH=$PATH:"${1}"
+        fi
+    fi
+}
+
+setupPath() {
+  #Start with an empty PATH
+  PATH=
+  #Local pwd stuff
+  addPath "${PWD}/script"
+  addPath "${PWD}/bin"
+  #For node
+  addPath "${PWD}/node_modules/.bin"
+  addPath "${PWD}/node/bin"
+  #For python virtualenvs
+  addPath "${PWD}/python/bin"
+
+  #Personal home dir stuff
+  addPath ~/bin
+  #For rbenv
+  addPath ~/.rbenv/bin
+  addPath ~/.cabal/bin
+  #Homebrew
+  addPath ~/Library/Python/2.7/bin
+  addPath /usr/local/share/python
+  addPath /usr/local/bin
+  #XCode/Developer
+  addPath /Developer/usr/bin
+  #Normal system stuff
+  addPath /bin
+  addPath /usr/bin
+  addPath /sbin
+  addPath /usr/sbin
+  addPath /usr/X11/bin
+}
+
+# Run this during shell startup. Can be re-run as needed manually as well.
+setupPath
+
+# Detect path change & setupPath ⬆
+if [ -n "${ZSH_VERSION}" ]; then
+  chpwd() {
+    [ -d .git -o \
+      -d  node_modules/.bin -o \
+      -d python/bin -o \
+      -d node/bin ] && setupPath
+  }
+fi
