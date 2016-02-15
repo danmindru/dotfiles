@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		"markdown",
+		"md",
 		"md"
 	],
 	"rulers":
