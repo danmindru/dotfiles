@@ -206,3 +206,6 @@ if [ -n "${ZSH_VERSION}" ]; then
       -d node/bin ] && setupPath
   }
 fi
+
+
+nvm use v5.5.0
