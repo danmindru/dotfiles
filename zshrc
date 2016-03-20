@@ -208,4 +208,13 @@ if [ -n "${ZSH_VERSION}" ]; then
 fi
 
 
+# Lazygit
+gap() {
+  git add .
+  git commit -a -m "$1"
+  git push
+}
+
+
+# Use nvm v5.5.0
 nvm use v5.5.0

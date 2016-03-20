@@ -6,3 +6,4 @@
 5. Import iTerm profile in Preferences -> General
 6. * Remember to `brew install z`
 7. Set key repeat rate to supersonic `defaults write NSGlobalDomain KeyRepeat -int 0`
+8. Install nvm
