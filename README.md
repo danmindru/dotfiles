@@ -6,6 +6,8 @@
     - If things are fucked, `mkdir ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Theme\ -\ Default`
     - If things are still fucked, switch to Atom
     - Symlink `User` & `Danish - DK` from this repo to Sublime's Packages 
+    - for html-lint: `Mac OS X – tidy comes preinstalled on recent versions of Mac OS X. You can install the html5 version by using Homebrew and brew install tidy-html5, or it can be built and installed from source.`
+    - for GutterColor: `brew install ImageMagick`; `{"convert_path" : "/usr/local/bin/convert"}`
 2. Symlink zsh theme to ~/.oh-my-zsh
 3. Import iTerm profile in Preferences -> General
 4. Install brew deps (or at least `brew install z`)
