@@ -1,0 +1,8 @@
+{
+	"extensions":
+	[
+		".eslintrc",
+		".babelrc",
+		"conf"
+	]
+}

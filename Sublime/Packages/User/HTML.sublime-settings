@@ -1,0 +1,12 @@
+{
+	"extensions":
+	[
+		"html",
+		"htm",
+		"html.erb",
+		"list",
+		"block",
+		"item",
+		"page"
+	]
+}

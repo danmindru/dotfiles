@@ -29,6 +29,7 @@
 		"MarkdownLight",
 		"Material Theme",
 		"Numix Theme",
+		"Oceanic Color Scheme",
 		"Oceanic Next Color Scheme",
 		"Package Control",
 		"PlainTasks",
@@ -43,10 +44,12 @@
 		"Stylus",
 		"SublimeLinter",
 		"SublimeLinter-coffee",
+		"SublimeLinter-html-tidy",
 		"SublimeLinter-jsxhint",
 		"Theme - Augmented Reaction",
 		"Theme - Brogrammer",
 		"Theme - Glacier",
+		"Theme - Monokai",
 		"Theme - Numix Light",
 		"Zen Tabs"
 	]

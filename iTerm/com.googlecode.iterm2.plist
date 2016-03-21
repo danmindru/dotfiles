@@ -2449,9 +2449,11 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>303 322 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 326 570 451 0 0 1680 1027 </string>
+	<string>1920 -142 570 451 1920 -468 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>1920 11 570 451 1920 -468 1920 1057 </string>
+	<key>NeverWarnAboutShortLivedSessions_EA6A8F73-6350-4C89-8808-820A93129F95</key>
+	<true/>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -3924,7 +3926,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>477571793.40789503</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>478213290.13486201</real>
+	<real>480192042.12170303</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -3989,7 +3991,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-02-26T16:46:50Z</date>
+	<date>2016-03-20T21:51:40Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -3997,7 +3999,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>

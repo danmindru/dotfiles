@@ -1,0 +1,16 @@
+{
+  // Disable completions of HTML attributes
+  // with this option disabled, you can get attribute list completions
+  // inside opening HTML tags.
+  // WARNING: with this option disabled, Tab key expander will not
+  // work inside opening HTML attributes
+  "disable_completions": true,
+
+  // With this option enabled, all Emmet's CSS snippets
+  // will be available in standard auto-complete popup
+  "show_css_completions": false,
+
+  // Try to automatically detect XHTML dialect in HTML documents.
+  // With this option enabled, your custom profile for HTML documents may not work.
+  "autodetect_xhtml": false,
+}
