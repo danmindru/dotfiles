@@ -49,11 +49,13 @@
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-json",
 		"SublimeLinter-jsxhint",
+		"SublimeLinter-pylint",
 		"Theme - Augmented Reaction",
 		"Theme - Brogrammer",
 		"Theme - Glacier",
 		"Theme - Monokai",
 		"Theme - Numix Light",
+		"Vue Syntax Highlight",
 		"Zen Tabs"
 	]
 }

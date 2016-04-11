@@ -2449,7 +2449,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>303 322 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1920 -142 570 451 1920 -468 1920 1057 </string>
+	<string>1920 -239 570 451 1920 -468 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>1920 11 570 451 1920 -468 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_EA6A8F73-6350-4C89-8808-820A93129F95</key>
@@ -3926,7 +3926,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>477571793.40789503</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>480192042.12170303</real>
+	<real>480784037.25404698</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -3991,7 +3991,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-03-20T21:51:40Z</date>
+	<date>2016-03-27T18:18:02Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -4043,6 +4043,10 @@
 	<integer>0</integer>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>2.1.4</string>
 </dict>
