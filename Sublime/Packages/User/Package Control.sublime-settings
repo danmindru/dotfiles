@@ -47,6 +47,7 @@
 		"SublimeLinter-coffee",
 		"SublimeLinter-contrib-htmlhint",
 		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-jsxhint",
 		"SublimeLinter-pylint",

@@ -7,6 +7,11 @@
         "gutter_theme_excludes": [],
         "lint_mode": "load/save",
         "linters": {
+            "coffee": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "htmlhint": {
                 "@disable": false,
                 "args": [
@@ -20,11 +25,26 @@
                 "args": [],
                 "excludes": []
             },
+            "jshint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "json": {
                 "@disable": false,
                 "args": [],
                 "excludes": [],
                 "strict": true
+            },
+            "pylint": {
+                "@disable": false,
+                "args": [],
+                "disable": "",
+                "enable": "",
+                "excludes": [],
+                "paths": [],
+                "rcfile": "",
+                "show-codes": false
             }
         },
         "mark_style": "outline",
