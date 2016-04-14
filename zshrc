@@ -70,7 +70,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx brew bower npm node xcode vagrant sublime terminalapp gulp grunt bower brew coffee git-extras git-flow github history history-substring-search last-working-dir nvm python sublime extract)
+plugins=(git osx npm node xcode vagrant sublime terminalapp gulp grunt bower brew coffee git-extras git-flow github history history-substring-search last-working-dir nvm python sublime extract)
 
 # User configuration
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
