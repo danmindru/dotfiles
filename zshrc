@@ -83,15 +83,14 @@ source $ZSH/oh-my-zsh.sh
 
 # Illustrator
 alias ail="open -a /Applications/Adobe\ Illustrator\ CS6/Adobe\ Illustrator.app/"
-
 # Photoshop
 alias aps="open -a /Applications/Adobe\ Photoshop\ CS6/Adobe\ Photoshop\ CS6.app/"
-
 # Sublime
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-
 # htdocs
 alias dcs="cd /Applications/MAMP/htdocs/"
+# Reload conf
+alias zshreload="source ~/.zshrc"
 
 # Added by termtile (https://github.com/apaszke/termtile)
 alias tul='osascript ~/.termtile/tile.scpt up left'
@@ -207,7 +206,6 @@ if [ -n "${ZSH_VERSION}" ]; then
   }
 fi
 
-
 # Lazygit
 gap() {
   git add .
@@ -215,6 +213,5 @@ gap() {
   git push
 }
 
-
-# Use nvm v5.5.0
-nvm use v5.5.0
+# Default node version
+nvm use v6.2.0

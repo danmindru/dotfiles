@@ -13,3 +13,6 @@
 4. Install brew deps (or at least `brew install z`)
 5. Install nvm (there's some default version set by zshell for each new terminal window)
 6. Set key repeat rate to supersonic `defaults write NSGlobalDomain KeyRepeat -int 0`
+
+
+# @todo make it work with Dropbox
