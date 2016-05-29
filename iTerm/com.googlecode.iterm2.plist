@@ -7,7 +7,7 @@
 	<key>AllowClipboardAccess</key>
 	<false/>
 	<key>AnimateDimming</key>
-	<false/>
+	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>AppleScrollAnimationEnabled</key>
@@ -2348,7 +2348,7 @@
 	<key>DimInactiveSplitPanes</key>
 	<true/>
 	<key>DimOnlyText</key>
-	<false/>
+	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
 	<key>EnableRendezvous</key>
@@ -2447,11 +2447,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>609 112 445 385 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>303 322 924 485 0 0 1440 877 </string>
+	<string>2505 21 924 485 1920 -468 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1920 -239 570 451 1920 -468 1920 1057 </string>
+	<string>86 113 570 451 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1920 11 570 451 1920 -468 1920 1057 </string>
+	<string>0 426 570 451 0 0 1680 1027 </string>
 	<key>NeverWarnAboutShortLivedSessions_EA6A8F73-6350-4C89-8808-820A93129F95</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -3926,7 +3926,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>477571793.40789503</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>480784037.25404698</real>
+	<real>485228576.65823799</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -3991,7 +3991,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-03-27T18:18:02Z</date>
+	<date>2016-05-19T09:33:39Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -4005,7 +4005,7 @@
 	<key>SmartPlacement</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.32727614045143127</real>
+	<real>0.22195763885974884</real>
 	<key>SwitchTabModifier</key>
 	<integer>4</integer>
 	<key>SwitchWindowModifier</key>
@@ -4030,7 +4030,7 @@
 	<key>UseBorder</key>
 	<false/>
 	<key>UseCompactLabel</key>
-	<false/>
+	<true/>
 	<key>UseLionStyleFullscreen</key>
 	<true/>
 	<key>WebKitDefaultFontSize</key>
