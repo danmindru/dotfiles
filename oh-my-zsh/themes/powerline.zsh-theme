@@ -42,7 +42,7 @@ if [ ! -n "${BULLETTRAIN_PROMPT_ROOT+1}" ]; then
   BULLETTRAIN_PROMPT_ROOT=true
 fi
 if [ ! -n "${BULLETTRAIN_PROMPT_SEPARATE_LINE+1}" ]; then
-  BULLETTRAIN_PROMPT_SEPARATE_LINE=true
+  BULLETTRAIN_PROMPT_SEPARATE_LINE=false
 fi
 if [ ! -n "${BULLETTRAIN_PROMPT_ADD_NEWLINE+1}" ]; then
   BULLETTRAIN_PROMPT_ADD_NEWLINE=true
@@ -112,7 +112,7 @@ if [ ! -n "${BULLETTRAIN_NVM_FG+1}" ]; then
   BULLETTRAIN_NVM_FG=white
 fi
 if [ ! -n "${BULLETTRAIN_NVM_PREFIX+1}" ]; then
-  BULLETTRAIN_NVM_PREFIX="⬡ "
+  BULLETTRAIN_NVM_PREFIX="👀  "
 fi
 
 # RUBY
@@ -575,7 +575,7 @@ prompt_time() {
   if [[ $BULLETTRAIN_TIME_12HR == true ]]; then
     prompt_segment $BULLETTRAIN_TIME_BG $BULLETTRAIN_TIME_FG %D{%r}
   else
-    prompt_segment $BULLETTRAIN_TIME_BG $BULLETTRAIN_TIME_FG %D{%T}
+    prompt_segment $BULLETTRAIN_TIME_BG $BULLETTRAIN_TIME_FG ⏰\ \ %D{%T}
   fi
 }
 
@@ -653,4 +653,4 @@ PROMPT="$PROMPT"'%{%f%b%k%}$(build_prompt)'
 [[ $BULLETTRAIN_PROMPT_SEPARATE_LINE == true ]] && PROMPT="$PROMPT$NEWLINE"
 PROMPT="$PROMPT"'%{${fg_bold[default]}%}'
 [[ $BULLETTRAIN_PROMPT_SEPARATE_LINE == false ]] && PROMPT="$PROMPT "
-PROMPT="$PROMPT"'$(prompt_char) %{$reset_color%}'
+PROMPT="$PROMPT"'$(prompt_char)%{$reset_color%}'

@@ -45,6 +45,7 @@
 		"Stylus",
 		"SublimeLinter",
 		"SublimeLinter-coffee",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-htmlhint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
