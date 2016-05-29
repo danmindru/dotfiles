@@ -146,12 +146,17 @@ if [ "$POWERLINE_NO_BLANK_LINE" = "" ]; then
 "$PROMPT
 fi
 
+# NVM node version display
+ZSH_THEME_NVM_PROMPT_PREFIX="%B⬡%b "
+ZSH_THEME_NVM_PROMPT_SUFFIX=""
+
 if [ "$POWERLINE_DISABLE_RPROMPT" = "" ]; then
     if [ "$POWERLINE_RIGHT_A" = "" ]; then
-        RPROMPT="$POWERLINE_GIT_INFO_RIGHT%F{white}"$'\ue0b2'"%k%F{black}%K{white} $POWERLINE_RIGHT_B %f%k"
+        RPROMPT="$(nvm_prompt_info) $POWERLINE_GIT_INFO_RIGHT%F{white}"$'\ue0b2'"%k%F{black}%K{white} $POWERLINE_RIGHT_B %f%k"
     elif [ "$POWERLINE_RIGHT_B" = "" ]; then
-        RPROMPT="$POWERLINE_GIT_INFO_RIGHT%F{white}"$'\ue0b2'"%k%F{$POWERLINE_RIGHT_A_COLOR_FRONT}%K{$POWERLINE_RIGHT_A_COLOR_BACK} $POWERLINE_RIGHT_A %f%k"
+        RPROMPT="$(nvm_prompt_info) $POWERLINE_GIT_INFO_RIGHT%F{white}"$'\ue0b2'"%k%F{$POWERLINE_RIGHT_A_COLOR_FRONT}%K{$POWERLINE_RIGHT_A_COLOR_BACK} $POWERLINE_RIGHT_A %f%k"
     else
-        RPROMPT="$POWERLINE_GIT_INFO_RIGHT%F{white}"$'\ue0b2'"%k%F{black}%K{white} $POWERLINE_RIGHT_B %f%F{$POWERLINE_RIGHT_A_COLOR_BACK}"$'\ue0b2'"%f%k%K{$POWERLINE_RIGHT_A_COLOR_BACK}%F{$POWERLINE_RIGHT_A_COLOR_FRONT} $POWERLINE_RIGHT_A %f%k"
+        RPROMPT="$(nvm_prompt_info) $POWERLINE_GIT_INFO_RIGHT%F{white}"$'\ue0b2'"%k%F{black}%K{white} $POWERLINE_RIGHT_B %f%F{$POWERLINE_RIGHT_A_COLOR_BACK}"$'\ue0b2'"%f%k%K{$POWERLINE_RIGHT_A_COLOR_BACK}%F{$POWERLINE_RIGHT_A_COLOR_FRONT} $POWERLINE_RIGHT_A %f%k"
     fi
 fi
+
