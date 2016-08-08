@@ -59,7 +59,8 @@
 		"admin",
 		"malleri",
 		"vaerlese",
-		"vaerleser"
+		"vaerleser",
+		"resumable"
 	],
 	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"detect_indentation": false,
@@ -106,6 +107,11 @@
 		"folders:update",
 		"gh",
 		"hackernews"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
 	],
 	"rulers":
 	[

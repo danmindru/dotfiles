@@ -2409,6 +2409,8 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
+	<false/>
 	<key>NSTableView Columns KeyBingingTable</key>
 	<array>
 		<data>
@@ -2420,7 +2422,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>302</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -2447,11 +2449,15 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>609 112 445 385 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>2505 21 924 485 1920 -468 1920 1080 </string>
+	<string>783 -491 606 456 480 -900 1440 877 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>930 -824 400 129 480 -900 1440 877 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>890 -536 620 392 480 -900 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>86 113 570 451 0 0 1680 1027 </string>
+	<string>929 -630 570 452 480 -900 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>0 426 570 451 0 0 1680 1027 </string>
+	<string>1920 -3 570 451 1920 -468 1920 1080 </string>
 	<key>NeverWarnAboutShortLivedSessions_EA6A8F73-6350-4C89-8808-820A93129F95</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -3060,6 +3066,8 @@
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
+			<key>Session Close Undo Timeout</key>
+			<integer>30</integer>
 			<key>Set Local Environment Vars</key>
 			<true/>
 			<key>Shortcut</key>
@@ -3170,7 +3178,7 @@
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -3792,6 +3800,8 @@
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
+			<key>Session Close Undo Timeout</key>
+			<integer>30</integer>
 			<key>Set Local Environment Vars</key>
 			<true/>
 			<key>Shortcut</key>
@@ -3923,10 +3933,31 @@
 	</array>
 	<key>NoSyncHaveShownPromoWithId_4</key>
 	<true/>
+	<key>NoSyncInstallationId</key>
+	<string>D31C3E9F-0A0F-4EF3-B44C-6B690831849A</string>
+	<key>NoSyncLastTipTime</key>
+	<real>488105121.16347098</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>486898329.14001602</real>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>477571793.40789503</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>485228576.65823799</real>
+	<real>486567850.425789</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -3986,12 +4017,14 @@
 	<integer>3</integer>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=86</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-05-19T09:33:39Z</date>
+	<date>2016-06-20T08:45:20Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -4018,10 +4051,9 @@
 	<integer>10</integer>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Profiles</string>
+		<string>Command History</string>
+		<string>Recent Directories</string>
 		<string>Paste History</string>
-		<string>Jobs</string>
-		<string>Notes</string>
 	</array>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
@@ -4036,7 +4068,7 @@
 	<key>WebKitDefaultFontSize</key>
 	<integer>11</integer>
 	<key>WebKitStandardFont</key>
-	<string>.Helvetica Neue DeskInterface</string>
+	<string>.AppleSystemUIFont</string>
 	<key>WindowNumber</key>
 	<true/>
 	<key>WindowStyle</key>
@@ -4048,6 +4080,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.1.4</string>
+	<string>3.0.0</string>
 </dict>
 </plist>

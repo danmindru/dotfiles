@@ -2,6 +2,20 @@
 	{"id": "side-bar-files-open-with",
 		"children":
 		[
+      //application 0
+      {
+        "caption": "Illustrator",
+        "id": "side-bar-files-open-with-illustrator",
+
+        "command": "side_bar_files_open_with",
+        "args": {
+                  "paths": [],
+                  "application": "Adobe Illustrator CS6.app", // OSX
+                  "extensions":"ai|svg|eps",  //any file with these extensions
+                  "args":[]
+                },
+        "open_automatically" : false // will close the view/tab and launch the application
+      },
 
 			//application 1
 			{

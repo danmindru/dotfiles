@@ -9,7 +9,7 @@
   <key>gutterSettings</key>
   <dict>
     <key>background</key>
-    <string>#263238</string>
+    <string>#212121</string>
     <key>divider</key>
     <string>#343d46</string>
     <key>foreground</key>
@@ -28,34 +28,34 @@
     <dict>
       <key>settings</key>
       <dict>
+        <key>activeGuide</key>
+        <string>#6E6E6E</string>
         <key>background</key>
-        <string>#263238</string>
+        <string>#212121</string>
         <key>caret</key>
         <string>#FFCC00</string>
+        <key>findHighlight</key>
+        <string>#F8E71C</string>
         <key>foreground</key>
-        <string>#eeffff</string>
+        <string>#eeffffff</string>
+        <key>guide</key>
+        <string>#42424260</string>
+        <key>gutterForeground</key>
+        <string>#424242</string>
         <key>invisibles</key>
         <string>#65737e</string>
         <key>lineHighlight</key>
         <string>#00000030</string>
         <key>selection</key>
-        <string>#80CBC420</string>
-        <key>guide</key>
-        <string>#37474F80</string>
-        <key>activeGuide</key>
-        <string>#80CBC470</string>
-        <key>stackGuide</key>
-        <string>#37474Fff</string>
-        <key>gutterForeground</key>
-        <string>#37474F</string>
-        <key>findHighlight</key>
-        <string>#F8E71C</string>
-        <key>tagsOptions</key>
-        <string>underline</string>
+        <string>#61616140</string>
+        <key>selectionBorder</key>
+        <string>#4F4F4F</string>
         <key>shadow</key>
         <string>#00000010</string>
-        <key>selectionBorder</key>
-        <string>#516B79</string>
+        <key>stackGuide</key>
+        <string>#42424280</string>
+        <key>tagsOptions</key>
+        <string>underline</string>
       </dict>
     </dict>
     <dict>
@@ -67,8 +67,6 @@
       <dict>
         <key>foreground</key>
         <string>#65737e</string>
-        <key>fontStyle</key>
-        <string>italic</string>
       </dict>
     </dict>
     <dict>
