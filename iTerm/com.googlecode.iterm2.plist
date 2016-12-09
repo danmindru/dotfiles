@@ -2348,13 +2348,13 @@
 	<key>DimInactiveSplitPanes</key>
 	<true/>
 	<key>DimOnlyText</key>
-	<true/>
+	<false/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
 	<key>EnableRendezvous</key>
 	<false/>
 	<key>FocusFollowsMouse</key>
-	<false/>
+	<true/>
 	<key>FsTabDelay</key>
 	<real>1</real>
 	<key>HiddenAFRStrokeThickness</key>
@@ -2453,11 +2453,13 @@
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>640 691 400 129 0 0 1680 1050 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 494 620 392 0 0 1680 1050 </string>
+	<string>890 -535 620 392 480 -900 1440 878 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>2524 142 770 381 1920 -468 1920 1058 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1676 1023 0 0 1680 1027 </string>
+	<string>665 426 570 452 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1920 -20 570 452 1920 -468 1920 1057 </string>
+	<string>480 -585 570 452 480 -900 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_EA6A8F73-6350-4C89-8808-820A93129F95</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -2657,14 +2659,33 @@
 			<integer>80</integer>
 			<key>Command</key>
 			<string></string>
+			<key>Cursor Boost</key>
+			<real>0.0</real>
 			<key>Cursor Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.43030226230621338</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.99738776683807373</real>
 				<key>Red Component</key>
-				<real>0.73333334922790527</real>
+				<real>0.15564873814582825</real>
+			</dict>
+			<key>Cursor Guide Color</key>
+			<dict>
+				<key>Alpha Component</key>
+				<real>0.25</real>
+				<key>Blue Component</key>
+				<real>0.99999129772186279</real>
+				<key>Color Space</key>
+				<string>Calibrated</string>
+				<key>Green Component</key>
+				<real>0.99997437000274658</real>
+				<key>Red Component</key>
+				<real>1</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -3184,6 +3205,8 @@
 			<key>Use Bright Bold</key>
 			<true/>
 			<key>Use Canonical Parser</key>
+			<false/>
+			<key>Use Cursor Guide</key>
 			<false/>
 			<key>Use Italic Font</key>
 			<false/>
@@ -3803,7 +3826,7 @@
 			<key>Session Close Undo Timeout</key>
 			<integer>30</integer>
 			<key>Set Local Environment Vars</key>
-			<true/>
+			<false/>
 			<key>Shortcut</key>
 			<string></string>
 			<key>Silence Bell</key>
@@ -3906,7 +3929,7 @@
 			<key>Tags</key>
 			<array/>
 			<key>Terminal Type</key>
-			<string>xterm</string>
+			<string>xterm-256color</string>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Triggers</key>
@@ -3942,7 +3965,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>D31C3E9F-0A0F-4EF3-B44C-6B690831849A</string>
 	<key>NoSyncLastTipTime</key>
-	<real>492620372.829449</real>
+	<real>496938923.36348999</real>
 	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -3996,6 +4019,36 @@
 		<string>0033</string>
 		<string>0034</string>
 		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
+		<string>0038</string>
+		<string>0039</string>
+		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
+		<string>0045</string>
+		<string>0046</string>
+		<string>0047</string>
+		<string>0048</string>
+		<string>0049</string>
+		<string>0050</string>
+		<string>0051</string>
+		<string>0052</string>
+		<string>0053</string>
+		<string>0054</string>
+		<string>0055</string>
+		<string>0056</string>
+		<string>0057</string>
+		<string>0058</string>
+		<string>0059</string>
+		<string>0060</string>
+		<string>0061</string>
+		<string>0062</string>
+		<string>0063</string>
+		<string>0064</string>
+		<string>0065</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -4065,7 +4118,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-08-12T09:20:03Z</date>
+	<date>2016-10-28T11:40:15Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -4079,7 +4132,7 @@
 	<key>SmartPlacement</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.22195763885974884</real>
+	<real>0.19983474222513345</real>
 	<key>SwitchTabModifier</key>
 	<integer>4</integer>
 	<key>SwitchWindowModifier</key>
@@ -4092,8 +4145,6 @@
 	<integer>10</integer>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Command History</string>
-		<string>Recent Directories</string>
 		<string>Paste History</string>
 	</array>
 	<key>TripleClickSelectsFullWrappedLines</key>
@@ -4121,6 +4172,10 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.4</string>
+	<string>3.0.11</string>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>0</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
+	<false/>
 </dict>
 </plist>
